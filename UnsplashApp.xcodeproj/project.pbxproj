@@ -14,6 +14,8 @@
 		5671F1252B6CDAC500BB62FF /* UnsplashAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671F1242B6CDAC500BB62FF /* UnsplashAppTests.swift */; };
 		5671F12F2B6CDAC500BB62FF /* UnsplashAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671F12E2B6CDAC500BB62FF /* UnsplashAppUITests.swift */; };
 		5671F1312B6CDAC500BB62FF /* UnsplashAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671F1302B6CDAC500BB62FF /* UnsplashAppUITestsLaunchTests.swift */; };
+		5671F13E2B6CEE9500BB62FF /* PListManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5671F13D2B6CEE9500BB62FF /* PListManager.swift */; };
+		5671F1402B6CEF0B00BB62FF /* environment.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5671F13F2B6CEF0B00BB62FF /* environment.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		5671F12A2B6CDAC500BB62FF /* UnsplashAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnsplashAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5671F12E2B6CDAC500BB62FF /* UnsplashAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppUITests.swift; sourceTree = "<group>"; };
 		5671F1302B6CDAC500BB62FF /* UnsplashAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnsplashAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5671F13D2B6CEE9500BB62FF /* PListManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PListManager.swift; sourceTree = "<group>"; };
+		5671F13F2B6CEF0B00BB62FF /* environment.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = environment.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				5671F1152B6CDAC400BB62FF /* ContentView.swift */,
 				5671F1172B6CDAC500BB62FF /* Assets.xcassets */,
 				5671F1192B6CDAC500BB62FF /* Preview Content */,
+				5671F13D2B6CEE9500BB62FF /* PListManager.swift */,
+				5671F13F2B6CEF0B00BB62FF /* environment.plist */,
 			);
 			path = UnsplashApp;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			files = (
 				5671F11B2B6CDAC500BB62FF /* Preview Assets.xcassets in Resources */,
 				5671F1182B6CDAC500BB62FF /* Assets.xcassets in Resources */,
+				5671F1402B6CEF0B00BB62FF /* environment.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,6 +265,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5671F1162B6CDAC400BB62FF /* ContentView.swift in Sources */,
+				5671F13E2B6CEE9500BB62FF /* PListManager.swift in Sources */,
 				5671F1142B6CDAC400BB62FF /* UnsplashAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
