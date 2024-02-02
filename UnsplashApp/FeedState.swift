@@ -30,8 +30,7 @@ struct UnsplashPhotoUrls: Codable {
 struct UnsplashTopic: Codable, Identifiable {
     let id: String
     let slug: String
-    let owners: User?
-    let photo: UnsplashPhoto
+    let cover_photo: UnsplashPhoto
 }
 
 class FeedState: ObservableObject {
@@ -75,7 +74,6 @@ class FeedState: ObservableObject {
                 
                 // Mettez à jour l'état de la vue
                 topicsFeed = deserializedData
-                print(topicsFeed)
             }
 
         } catch {

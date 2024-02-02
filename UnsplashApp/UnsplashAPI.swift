@@ -41,7 +41,6 @@ struct UnsplashAPI {
         components.path = "/topics"
         components.queryItems! += [
             URLQueryItem(name: "order_by", value: "featured"),
-            URLQueryItem(name: "per_page", value: String(3)),
         ]
         
         return components.url
